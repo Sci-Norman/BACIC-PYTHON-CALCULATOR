@@ -1,0 +1,16 @@
+print("WELCOME TO MY BASIC CALCULATOR!!!!!!")
+value1=input("Please Enter your first value:")
+value2=input("please Enter your second value:")
+operator=input("Please choose an operator: +,-,/,*:  ")
+if operator=="+":
+    answer=str(float(value1)+float(value2))
+elif operator=="-":
+    answer=str(float(value1)-float(value2))
+elif operator=="/":
+    answer=str(float(value1)/float(value2))
+elif operator=="*":
+    answer=str(float(value1)*float(value2))
+else:
+    print("Invalid Operator")
+    answer="Invalid Operator!!PLEASE ENTER A VALID OPERATOR"
+print("Your Final answer is: "+answer)
